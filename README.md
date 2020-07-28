@@ -2,6 +2,10 @@
 
 <img src="./icon.png" alt="logo" width="130"/>
 
+## Demo
+
+![demo](./jialfred.gif)
+
 ## Installation
 
 1. Follow https://github.com/go-jira/jira#install installation and login to your jira server
