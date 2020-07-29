@@ -34,6 +34,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1C7BAA94-BEC5-40D7-A235-1C339E1C954D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B5C28B8E-A147-440B-AC3B-D35AB508BC1A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1FD95176-5E84-435B-B570-D399C9A66A68</key>
 		<array>
 			<dict>
@@ -71,6 +84,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>320B6855-5A0C-4E5D-8B65-3B0E4F084002</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4AA8F1A8-1D40-46E9-84B0-E2A5DDA498F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>37E4DDF6-802C-444D-A46C-ADD0089EFA01</key>
 		<array>
 			<dict>
@@ -89,6 +115,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E7CE5EF3-D51F-453A-BB8A-37F710E2EF0A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4AA8F1A8-1D40-46E9-84B0-E2A5DDA498F4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D19C767A-BBBA-488F-8983-6B2DDA0ACCCF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -162,6 +201,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B5C28B8E-A147-440B-AC3B-D35AB508BC1A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C624E59-8BEA-4E77-BCD5-35D9F6C1E272</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D19C767A-BBBA-488F-8983-6B2DDA0ACCCF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1C7BAA94-BEC5-40D7-A235-1C339E1C954D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E7311BD2-CEBA-44BF-9D22-8A7053976A72</key>
 		<array>
 			<dict>
@@ -202,6 +267,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>enter a state</string>
+				<key>text</key>
+				<string>state</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>56F93D8D-D4F1-4B56-AE0A-B97D015AABA2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -227,31 +311,12 @@
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>subtext</key>
-				<string>enter a state</string>
-				<key>text</key>
-				<string>state</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>56F93D8D-D4F1-4B56-AE0A-B97D015AABA2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
 				<key>keyword</key>
 				<string>jiraf</string>
 				<key>subtext</key>
-				<string></string>
-				<key>text</key>
 				<string>jiraf</string>
+				<key>text</key>
+				<string>Jiralfred</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -356,26 +421,6 @@
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>command</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>E7311BD2-CEBA-44BF-9D22-8A7053976A72</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
@@ -393,21 +438,20 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Done</string>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>command</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>E7CE5EF3-D51F-453A-BB8A-37F710E2EF0A</string>
+			<string>E7311BD2-CEBA-44BF-9D22-8A7053976A72</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -433,6 +477,27 @@
 			<string>0167555A-1B3A-441E-B034-9A857C4BD776</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Done</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>E7CE5EF3-D51F-453A-BB8A-37F710E2EF0A</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -493,6 +558,130 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Done</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8C624E59-8BEA-4E77-BCD5-35D9F6C1E272</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jirabt</string>
+				<key>subtext</key>
+				<string>jirabt</string>
+				<key>text</key>
+				<string>Jiralfred bulk transition</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>320B6855-5A0C-4E5D-8B65-3B0E4F084002</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>state to transition</string>
+				<key>text</key>
+				<string>state</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D19C767A-BBBA-488F-8983-6B2DDA0ACCCF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B5C28B8E-A147-440B-AC3B-D35AB508BC1A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>tickets</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4AA8F1A8-1D40-46E9-84B0-E2A5DDA498F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>state</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1C7BAA94-BEC5-40D7-A235-1C339E1C954D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -512,12 +701,26 @@
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
+		<key>1C7BAA94-BEC5-40D7-A235-1C339E1C954D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>365</integer>
+			<key>ypos</key>
+			<integer>445</integer>
+		</dict>
 		<key>1FD95176-5E84-435B-B570-D399C9A66A68</key>
 		<dict>
 			<key>xpos</key>
 			<integer>420</integer>
 			<key>ypos</key>
 			<integer>55</integer>
+		</dict>
+		<key>320B6855-5A0C-4E5D-8B65-3B0E4F084002</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>415</integer>
 		</dict>
 		<key>37E4DDF6-802C-444D-A46C-ADD0089EFA01</key>
 		<dict>
@@ -532,6 +735,13 @@
 			<integer>810</integer>
 			<key>ypos</key>
 			<integer>25</integer>
+		</dict>
+		<key>4AA8F1A8-1D40-46E9-84B0-E2A5DDA498F4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>445</integer>
 		</dict>
 		<key>4B4F4A56-94CF-4F53-9763-0FC068902F57</key>
 		<dict>
@@ -567,6 +777,27 @@
 			<integer>580</integer>
 			<key>ypos</key>
 			<integer>55</integer>
+		</dict>
+		<key>8C624E59-8BEA-4E77-BCD5-35D9F6C1E272</key>
+		<dict>
+			<key>xpos</key>
+			<integer>580</integer>
+			<key>ypos</key>
+			<integer>415</integer>
+		</dict>
+		<key>B5C28B8E-A147-440B-AC3B-D35AB508BC1A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>425</integer>
+			<key>ypos</key>
+			<integer>415</integer>
+		</dict>
+		<key>D19C767A-BBBA-488F-8983-6B2DDA0ACCCF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>225</integer>
+			<key>ypos</key>
+			<integer>415</integer>
 		</dict>
 		<key>E7311BD2-CEBA-44BF-9D22-8A7053976A72</key>
 		<dict>
