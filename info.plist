@@ -21,6 +21,45 @@
 				<false/>
 			</dict>
 		</array>
+		<key>0792B363-1FCE-4CFA-A0C8-AC7D61D96839</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>09EC1DF1-C8B2-4752-9D65-9A1A6C190830</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>09EC1DF1-C8B2-4752-9D65-9A1A6C190830</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F7D7AD96-4D79-42D4-9A0C-7C05015349F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0D034ADD-B428-489C-ADB9-85844E06DAE2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6471E30B-096E-4A32-A81B-9EDF45C8908B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>15299C7A-CDEA-4359-8898-446F2892DB7C</key>
 		<array>
 			<dict>
@@ -110,6 +149,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4797E0F4-8493-491C-BA72-BF67C9FA8B7D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F6227CB6-0E4C-4F40-AF4D-A2715DCB9384</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>48C14DDF-6AC7-433C-92DB-979DA5F6D1A1</key>
 		<array>
 			<dict>
@@ -175,6 +227,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6471E30B-096E-4A32-A81B-9EDF45C8908B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>190917A5-4507-4467-A018-A6BBD5EF3130</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6540BD91-B9BE-43FF-989F-BD5922BEB51B</key>
 		<array>
 			<dict>
@@ -193,6 +258,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>56F93D8D-D4F1-4B56-AE0A-B97D015AABA2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9169A4E5-807F-4156-B5FF-7E5E46B5F355</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F4A251C0-E40C-4947-A61B-B95B3A5D5C55</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -240,6 +318,45 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F4A251C0-E40C-4947-A61B-B95B3A5D5C55</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4797E0F4-8493-491C-BA72-BF67C9FA8B7D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F6227CB6-0E4C-4F40-AF4D-A2715DCB9384</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D034ADD-B428-489C-ADB9-85844E06DAE2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F7D7AD96-4D79-42D4-9A0C-7C05015349F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AED28A98-034B-45CB-8BE6-A66D4671723B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FF316160-82F1-4AC1-8D82-72A1F0AC9ED6</key>
 		<array>
 			<dict>
@@ -267,35 +384,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>$PATH_TO_JIRA $command $1 $ticket --noedit</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>48C14DDF-6AC7-433C-92DB-979DA5F6D1A1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
-				<string>enter a state</string>
+				<string>state to transition</string>
 				<key>text</key>
-				<string>state</string>
+				<string>Enter a state...</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -309,23 +403,26 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
+$PATH_TO_JIRA $command $1 $ticket --noedit</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>jiraf</string>
-				<key>subtext</key>
-				<string>jiraf</string>
-				<key>text</key>
-				<string>Jiralfred</string>
-				<key>withspace</key>
-				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>15299C7A-CDEA-4359-8898-446F2892DB7C</string>
+			<string>48C14DDF-6AC7-433C-92DB-979DA5F6D1A1</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -351,6 +448,27 @@
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
 			<string>52EFB664-7987-4EF9-8CA8-268AB6BA279F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jiraf</string>
+				<key>subtext</key>
+				<string>jiraf {issue}</string>
+				<key>text</key>
+				<string>Jiralfred</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>15299C7A-CDEA-4359-8898-446F2892DB7C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -421,6 +539,26 @@
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>ticket</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4B4F4A56-94CF-4F53-9763-0FC068902F57</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
 				<true/>
 				<key>variables</key>
 				<dict>
@@ -438,22 +576,45 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
 				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>ticket</key>
-					<string>{query}</string>
-				</dict>
+				<key>text</key>
+				<string>Labels to add</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>4B4F4A56-94CF-4F53-9763-0FC068902F57</string>
+			<string>37E4DDF6-802C-444D-A46C-ADD0089EFA01</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
+$PATH_TO_JIRA $command $ticket $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0167555A-1B3A-441E-B034-9A857C4BD776</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -473,48 +634,6 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>E7CE5EF3-D51F-453A-BB8A-37F710E2EF0A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>$PATH_TO_JIRA $command $ticket $1</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0167555A-1B3A-441E-B034-9A857C4BD776</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>enter</string>
-				<key>text</key>
-				<string>Labels</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>37E4DDF6-802C-444D-A46C-ADD0089EFA01</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -543,13 +662,14 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>$PATH_TO_JIRA $command $ticket</string>
+				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
+$PATH_TO_JIRA $command $ticket</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -563,31 +683,10 @@
 			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>jirabt</string>
-				<key>subtext</key>
-				<string>jirabt</string>
-				<key>text</key>
-				<string>Jiralfred bulk transition</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>320B6855-5A0C-4E5D-8B65-3B0E4F084002</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
 				<key>subtext</key>
 				<string>state to transition</string>
 				<key>text</key>
-				<string>state</string>
+				<string>Enter a state...</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -606,7 +705,8 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</string>
+				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
+for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -639,6 +739,27 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>8C624E59-8BEA-4E77-BCD5-35D9F6C1E272</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jirabt</string>
+				<key>subtext</key>
+				<string>jirabt {issue1} {issue2}</string>
+				<key>text</key>
+				<string>Jiralfred bulk transition</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>320B6855-5A0C-4E5D-8B65-3B0E4F084002</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -682,6 +803,238 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Enter your email...</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F6227CB6-0E4C-4F40-AF4D-A2715DCB9384</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>jirasetup</string>
+				<key>subtext</key>
+				<string>jirasetup</string>
+				<key>text</key>
+				<string>Setup Jira</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9169A4E5-807F-4156-B5FF-7E5E46B5F355</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Done - Setup</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>190917A5-4507-4467-A018-A6BBD5EF3130</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>export SUBDOMAIN="https://$subdomain.atlassian.net"
+export EMAIL="$email"
+mkdir -p ~/.jira.d
+printf "endpoint: $SUBDOMAIN\nuser: $EMAIL\npassword-source: keyring" &gt; ~/.jira.d/config.yml</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6471E30B-096E-4A32-A81B-9EDF45C8908B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>https://&lt;SUBDOMAIN&gt;.atlassian.net</string>
+				<key>text</key>
+				<string>Enter a subdomain...</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F4A251C0-E40C-4947-A61B-B95B3A5D5C55</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>subdomain</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4797E0F4-8493-491C-BA72-BF67C9FA8B7D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>email</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0D034ADD-B428-489C-ADB9-85844E06DAE2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Done - Register Token</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>AED28A98-034B-45CB-8BE6-A66D4671723B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>mkdir -p "$alfred_workflow_data"
+echo $token &gt; "$alfred_workflow_data/token.txt"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F7D7AD96-4D79-42D4-9A0C-7C05015349F1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jiratoken</string>
+				<key>subtext</key>
+				<string>jiratoken {token}</string>
+				<key>text</key>
+				<string>Register jira api token</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0792B363-1FCE-4CFA-A0C8-AC7D61D96839</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>token</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>09EC1DF1-C8B2-4752-9D65-9A1A6C190830</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -694,12 +1047,40 @@
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
+		<key>0792B363-1FCE-4CFA-A0C8-AC7D61D96839</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>700</integer>
+		</dict>
+		<key>09EC1DF1-C8B2-4752-9D65-9A1A6C190830</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>730</integer>
+		</dict>
+		<key>0D034ADD-B428-489C-ADB9-85844E06DAE2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>515</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
 		<key>15299C7A-CDEA-4359-8898-446F2892DB7C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>50</integer>
+		</dict>
+		<key>190917A5-4507-4467-A018-A6BBD5EF3130</key>
+		<dict>
+			<key>xpos</key>
+			<integer>745</integer>
+			<key>ypos</key>
+			<integer>560</integer>
 		</dict>
 		<key>1C7BAA94-BEC5-40D7-A235-1C339E1C954D</key>
 		<dict>
@@ -728,6 +1109,13 @@
 			<integer>650</integer>
 			<key>ypos</key>
 			<integer>150</integer>
+		</dict>
+		<key>4797E0F4-8493-491C-BA72-BF67C9FA8B7D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>315</integer>
+			<key>ypos</key>
+			<integer>590</integer>
 		</dict>
 		<key>48C14DDF-6AC7-433C-92DB-979DA5F6D1A1</key>
 		<dict>
@@ -764,6 +1152,13 @@
 			<key>ypos</key>
 			<integer>25</integer>
 		</dict>
+		<key>6471E30B-096E-4A32-A81B-9EDF45C8908B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>575</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
 		<key>6540BD91-B9BE-43FF-989F-BD5922BEB51B</key>
 		<dict>
 			<key>xpos</key>
@@ -784,6 +1179,20 @@
 			<integer>580</integer>
 			<key>ypos</key>
 			<integer>415</integer>
+		</dict>
+		<key>9169A4E5-807F-4156-B5FF-7E5E46B5F355</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
+		<key>AED28A98-034B-45CB-8BE6-A66D4671723B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>700</integer>
 		</dict>
 		<key>B5C28B8E-A147-440B-AC3B-D35AB508BC1A</key>
 		<dict>
@@ -812,6 +1221,27 @@
 			<integer>970</integer>
 			<key>ypos</key>
 			<integer>150</integer>
+		</dict>
+		<key>F4A251C0-E40C-4947-A61B-B95B3A5D5C55</key>
+		<dict>
+			<key>xpos</key>
+			<integer>175</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
+		<key>F6227CB6-0E4C-4F40-AF4D-A2715DCB9384</key>
+		<dict>
+			<key>xpos</key>
+			<integer>375</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
+		<key>F7D7AD96-4D79-42D4-9A0C-7C05015349F1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>700</integer>
 		</dict>
 		<key>FF316160-82F1-4AC1-8D82-72A1F0AC9ED6</key>
 		<dict>
