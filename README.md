@@ -19,7 +19,7 @@
 
 User `jiraf` keyword and enter an issue, ex. `PROJ-1`, followed by supported command.
 
-Current supports:
+#### Current supports:
 
 * `labels add`
 * `label remove`
