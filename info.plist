@@ -409,7 +409,7 @@
 				<integer>102</integer>
 				<key>script</key>
 				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
-$PATH_TO_JIRA $command $1 $ticket --noedit</string>
+./jira $command $1 $ticket --noedit</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -423,6 +423,27 @@ $PATH_TO_JIRA $command $1 $ticket --noedit</string>
 			<string>48C14DDF-6AC7-433C-92DB-979DA5F6D1A1</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jiraf</string>
+				<key>subtext</key>
+				<string>jiraf {issue}</string>
+				<key>text</key>
+				<string>Jiralfred</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>15299C7A-CDEA-4359-8898-446F2892DB7C</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -448,27 +469,6 @@ $PATH_TO_JIRA $command $1 $ticket --noedit</string>
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
 			<string>52EFB664-7987-4EF9-8CA8-268AB6BA279F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>jiraf</string>
-				<key>subtext</key>
-				<string>jiraf {issue}</string>
-				<key>text</key>
-				<string>Jiralfred</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>15299C7A-CDEA-4359-8898-446F2892DB7C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -576,32 +576,13 @@ $PATH_TO_JIRA $command $1 $ticket --noedit</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Labels to add</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>37E4DDF6-802C-444D-A46C-ADD0089EFA01</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
 				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
-$PATH_TO_JIRA $command $ticket $1</string>
+./jira $command $ticket $1</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -640,6 +621,25 @@ $PATH_TO_JIRA $command $ticket $1</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Labels to add</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>37E4DDF6-802C-444D-A46C-ADD0089EFA01</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -663,7 +663,7 @@ $PATH_TO_JIRA $command $ticket $1</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
-$PATH_TO_JIRA $command $ticket</string>
+./jira $command $ticket</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -677,6 +677,27 @@ $PATH_TO_JIRA $command $ticket</string>
 			<string>FF316160-82F1-4AC1-8D82-72A1F0AC9ED6</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jirabt</string>
+				<key>subtext</key>
+				<string>jirabt {issue1} {issue2}</string>
+				<key>text</key>
+				<string>Jiralfred bulk transition</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>320B6855-5A0C-4E5D-8B65-3B0E4F084002</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -706,7 +727,7 @@ $PATH_TO_JIRA $command $ticket</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>export JIRA_API_TOKEN=$(cat "$alfred_workflow_data/token.txt")
-for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</string>
+for x in ${(z)tickets}; do ./jira transition $state $x --noedit; done</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -745,21 +766,20 @@ for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</st
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>jirabt</string>
-				<key>subtext</key>
-				<string>jirabt {issue1} {issue2}</string>
-				<key>text</key>
-				<string>Jiralfred bulk transition</string>
-				<key>withspace</key>
-				<true/>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>tickets</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>320B6855-5A0C-4E5D-8B65-3B0E4F084002</string>
+			<string>4AA8F1A8-1D40-46E9-84B0-E2A5DDA498F4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -786,26 +806,6 @@ for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</st
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>tickets</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>4AA8F1A8-1D40-46E9-84B0-E2A5DDA498F4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
@@ -819,27 +819,6 @@ for x in ${(z)tickets}; do $PATH_TO_JIRA transition $state $x --noedit; done</st
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>F6227CB6-0E4C-4F40-AF4D-A2715DCB9384</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>jirasetup</string>
-				<key>subtext</key>
-				<string>jirasetup</string>
-				<key>text</key>
-				<string>Setup Jira</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>9169A4E5-807F-4156-B5FF-7E5E46B5F355</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -894,6 +873,27 @@ printf "endpoint: $SUBDOMAIN\nuser: $EMAIL\npassword-source: keyring" &gt; ~/.ji
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>jirasetup</string>
+				<key>subtext</key>
+				<string>jirasetup</string>
+				<key>text</key>
+				<string>Setup Jira</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9169A4E5-807F-4156-B5FF-7E5E46B5F355</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
 				<string>https://&lt;SUBDOMAIN&gt;.atlassian.net</string>
@@ -918,14 +918,14 @@ printf "endpoint: $SUBDOMAIN\nuser: $EMAIL\npassword-source: keyring" &gt; ~/.ji
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>subdomain</key>
+					<key>email</key>
 					<string>{query}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>4797E0F4-8493-491C-BA72-BF67C9FA8B7D</string>
+			<string>0D034ADD-B428-489C-ADB9-85844E06DAE2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -938,14 +938,14 @@ printf "endpoint: $SUBDOMAIN\nuser: $EMAIL\npassword-source: keyring" &gt; ~/.ji
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>email</key>
+					<key>subdomain</key>
 					<string>{query}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>0D034ADD-B428-489C-ADB9-85844E06DAE2</string>
+			<string>4797E0F4-8493-491C-BA72-BF67C9FA8B7D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1251,15 +1251,8 @@ echo $token &gt; "$alfred_workflow_data/token.txt"</string>
 			<integer>280</integer>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>PATH_TO_JIRA</key>
-		<string>/Users/jackchuka/dev/bin/jira</string>
-	</dict>
 	<key>variablesdontexport</key>
-	<array>
-		<string>PATH_TO_JIRA</string>
-	</array>
+	<array/>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>
